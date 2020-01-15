@@ -30,7 +30,7 @@ For add this package in your laravel project:
  cd home/path_project
  ```
 
- 4. Check this ommand-> carlos:writelog
+ 4. Check this command-> carlos:writelog
 
  ```sh
  php artisan
