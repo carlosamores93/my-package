@@ -1,0 +1,23 @@
+{
+    "name": "carlos/my-package",
+    "description": "Command write in log laravel every hour",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Amores",
+            "email": "amorescarlos93@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Carlos\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "provider": "Carlos\\Commands\\ArtisanWriteLogServiceProvider"
+        }
+    }
+}
