@@ -29,7 +29,7 @@ class ArtisanWriteLogServiceProvider extends ServiceProvider
     {
         $this->app->booted(function () {
             $schedule = $this->app->make(Schedule::class);
-            $schedule->command('carlos:writelog')->everyMinute();
+            $schedule->command('carlos:writelog')->dailyAt('13:00');
         });
     }
 }
