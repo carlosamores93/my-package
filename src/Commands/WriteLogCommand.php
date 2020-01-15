@@ -4,7 +4,7 @@ namespace Carlos\Commands;
 
 use Illuminate\Console\Command;
 
-class WriteLogCommmand extends Command
+class WriteLogCommand extends Command
 {
     /**
      * The name and signature of the console command.
@@ -37,6 +37,6 @@ class WriteLogCommmand extends Command
      */
     public function handle()
     {
-        info('Write here with command WriteLogCommmand');
+        info('Write here with command WriteLogCommand');
     }
 }
