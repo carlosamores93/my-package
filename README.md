@@ -1,4 +1,4 @@
-# Package test for Laravel
+# Example package for Laravel project
 
 ## This package has a command than write in log laravel
 
