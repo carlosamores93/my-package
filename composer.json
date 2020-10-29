@@ -12,13 +12,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Carlos\\Commands\\": "src/"
+            "Carlos\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Carlos\\Commands\\ArtisanWriteLogServiceProvider"
+                "Carlos\\ArtisanWriteLogServiceProvider"
             ]
         }
     }

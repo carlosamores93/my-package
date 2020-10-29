@@ -1,6 +1,6 @@
 <?php
 
-namespace Carlos\Commands;
+namespace Carlos;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Console\Scheduling\Schedule;
